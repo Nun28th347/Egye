@@ -1,0 +1,148 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(imgs/BG.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar
+{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo
+{
+    width: 150px;
+    cursor: pointer;
+}
+
+.menu-icon
+{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li
+{
+    list-style: none;
+    display: inline;
+    margin-left: 60px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+     color: aliceblue;
+     font-size: 17px;
+}
+
+.row
+{
+    /* display: flex; */
+    height: 88%;
+    text-align: center;
+    color: blanchedalmond;
+    margin: 70px;
+}
+
+.col
+{
+    flex-basis: 50%;
+    margin-top: 40px;
+    color: darkgoldenrod;
+}
+
+h1{
+    font-size: 70px;
+    color: blanchedalmond;
+}
+
+p
+{
+    font-size: 11px;
+    line-height: 15px;
+}
+
+button
+{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+.card
+{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px;
+    
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1
+{
+    background-image: url(imgs/pic-1.png);
+}
+.card2
+{
+    background-image: url(imgs/pic-2.png);
+}
+.card3
+{
+    background-image: url(imgs/pic-3.png);
+}
+.card4
+{
+    background-image: url(imgs/pic-4.png);
+}
+
+.card:hover
+{
+    transform: translate(0 , -5px);
+}
+
+h5
+{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.card p
+{
+    text-shadow: 0 0 5px #000;
+    font-size: 10px;
+}
